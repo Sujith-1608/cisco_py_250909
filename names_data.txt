@@ -1,0 +1,2 @@
+Sorted_list: ['Harshitha', 'Sujith', 'rohan']
+Sorted_tuple: ('Harshitha', 'Sujith', 'rohan')

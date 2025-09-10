@@ -1,0 +1,2 @@
+List:['We', 'are', 'Learning', 'Python'] 
+Tuple : ('WE', 'ARE', 'LEARNING', 'PYTHON')
