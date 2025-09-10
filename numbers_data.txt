@@ -1,0 +1,2 @@
+SUM: 6
+Average: 2.0

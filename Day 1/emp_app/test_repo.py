@@ -1,34 +1,43 @@
-employees = [] #[(id,name,age,salary,is_active)]
 
-def test():
-    print("Hello")
-def create_employee(employee):
-    global employees
-    employees.append(employee)
+import repo
 
-def read_all_employee():
-    return employees
+#test create employee and read all
+employee=(101,'Banu',22,50000,True)
+repo.create_employee(employee)
+print(f'Employee {employee[1]} created successfully')
+print('After add:',repo.read_all_employee())
 
-def read_by_id(id):
-    for employee in employees:
-        return employee
-    return None
+employee=(102,'Mahesh',46,4000.50,True)
+repo.create_employee(employee)
+print(f'Employee {employee[1]} created successfully.')
+print('After add:',repo.read_all_employee())
 
-def update(id,new_employee): #new_employee is update at ID
-    I =0
-    for employee in employees:
-        if employee[0] == id:
-            employees[I] = new_employee
-            break
-        I+=1
+employee=(103,'Vaishnavi',21,40000.75,True)
+repo.create_employee(employee)
+print(f'Employee {employee[1]} created successfully.')
+print('After add:',repo.read_all_employee())
 
-def delete_employee(id):
-    index = -1
-    I = 0
-    for employee in employees:
-        if employee[0]==id:
-            index = I
-            break
-        I +=1
-    if index !=-1:
-        employees.pop(index)
+
+#test read by id
+employee=repo.read_by_id(103)
+if employee == None :
+    print('Employee not found')
+else:
+    print(employee)
+
+
+#test update
+employee = repo.read_by_id(103)
+if employee == None :
+    print('Employee not found')
+else:
+    id,name,age,salary,is_active=employee
+    salary+= 20000
+    new_employee =(id,name,age,salary,is_active)
+    repo.update(103,new_employee)
+    print('After update:',repo.read_all_employee())
+
+
+#test delete
+repo.delete_employee(102)
+print('After delete:',repo.read_all_employee())
