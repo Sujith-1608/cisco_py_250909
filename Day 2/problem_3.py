@@ -1,4 +1,4 @@
-sentence=input("Enter the sentence")
+sentence=input("Enter the sentence: ")
 words_list=sentence.split()
 words_tuple=tuple(word.upper() for word in words_list)
 
