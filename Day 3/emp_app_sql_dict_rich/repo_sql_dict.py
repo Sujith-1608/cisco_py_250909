@@ -1,16 +1,27 @@
 from db_setup import session, Employee 
 from log import logging 
+from sqlalchemy.exc import SQLAlchemyError, IntegrityError
+from exc import EmployeeNotFoundError, EmployeeAlreadyExistError, DatabaseError
 #CRUD (Create, Read All | Read One, Update, Delete)
 #Employee App - SQL DB - dict element
 def create_employee(employee):
-    employee_model = Employee(id = employee['id'],
-        name = employee['name'],
-        age = employee['age'],
-        salary = employee['salary'],
-        is_active = employee['is_active'] )
-    session.add(employee_model) #INSERT stmt db 
-    session.commit() 
-    logging.info("employee created.")
+    try:
+        employee_model = Employee(id = employee['id'],
+            name = employee['name'],
+            age = employee['age'],
+            salary = employee['salary'],
+            is_active = employee['is_active'] )
+        session.add(employee_model) #INSERT stmt db 
+        session.commit() 
+        logging.info("employee created.")
+    except IntegrityError as ex:
+        session.rollback()
+        logging.error("Duplicate employee id:%s",ex)
+        raise EmployeeAlreadyExistError(f"Employee id={employee['id']} exists already.")
+    except SQLAlchemyError as ex:
+        session.rollback()
+        logging.error("Database error in creating employee:%s",ex)
+        raise DatabaseError("Error in creating employee.")
 def read_all_employee():
     employees = session.query(Employee).all()
     dict_employees = []

@@ -1,0 +1,5 @@
+2025-09-11 13:48:08,410 [INFO] BEGIN (implicit)
+2025-09-11 13:48:08,412 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-11 13:48:08,412 [INFO] [generated in 0.00024s] (103, 'Tommy', 25, 50000.0, 1)
+2025-09-11 13:48:08,415 [INFO] COMMIT
+2025-09-11 13:48:08,417 [INFO] employee created.
