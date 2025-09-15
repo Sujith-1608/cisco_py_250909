@@ -1,0 +1,5 @@
+2025-09-15 09:21:59,034 [INFO] BEGIN (implicit)
+2025-09-15 09:21:59,037 [INFO] INSERT INTO flights (id, flight_number, airline, seats, price, source, destination) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-15 09:21:59,037 [INFO] [generated in 0.00034s] (2112, '211I', 'Air India', 166, 5000, 'HYD', 'BANG')
+2025-09-15 09:21:59,039 [INFO] COMMIT
+2025-09-15 09:21:59,041 [INFO] Flight created
