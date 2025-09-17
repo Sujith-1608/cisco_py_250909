@@ -105,30 +105,32 @@ def delete_patient(patient_id):
         return jsonify({"error": "Failed to delete patient"}), 500
     
 
-@application.route("/patients/batch-average", methods=['POST'])
+@application.route("/patients/batch-average", methods=["GET"])
 def batch_average():
-    """Calculate average age of patients in batches using threads or asyncio."""
+    """
+    Calculate the true overall average age of all patients.
+    Supports ?batch_size=<int>&method=threads|asyncio
+    """
     try:
-        data = request.get_json(silent=True) or {}
-        batch_size = data.get("batch_size", 10)
-        method = data.get("method", "threads")
+        # Accept query params for GET
+        batch_size = int(request.args.get("batch_size", 10))
+        method = request.args.get("method", "threads")
 
         patients = crud.read_all_patients()
 
         if method == "asyncio":
-            batch_averages = asyncio.run(
+            overall_average = asyncio.run(
                 calculate_average_age_async(patients, batch_size=batch_size)
             )
         else:
-            batch_averages = calculate_average_age_threaded(
+            overall_average = calculate_average_age_threaded(
                 patients, batch_size=batch_size
             )
 
         return jsonify({
             "batch_size": batch_size,
             "method": method,
-            "batch_averages": batch_averages,
-            "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+            "overall_average": overall_average
         })
     except Exception as e:
         logger.exception("Unexpected error in batch_average route")

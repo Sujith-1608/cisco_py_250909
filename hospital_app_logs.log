@@ -1203,3 +1203,452 @@ FROM patients
 2025-09-17 12:18:24,914 [INFO] [cached since 18.46s ago] ()
 2025-09-17 12:18:24,915 [INFO] ROLLBACK
 2025-09-17 12:18:24,916 [INFO] 127.0.0.1 - - [17/Sep/2025 12:18:24] "POST /patients/batch-average HTTP/1.1" 200 -
+2025-09-17 13:59:56,977 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 13:59:57,061 [INFO]  * Restarting with stat
+2025-09-17 13:59:57,349 [INFO] BEGIN (implicit)
+2025-09-17 13:59:57,349 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 13:59:57,349 [INFO] [raw sql] ()
+2025-09-17 13:59:57,350 [INFO] COMMIT
+2025-09-17 13:59:57,373 [WARNING]  * Debugger is active!
+2025-09-17 13:59:57,387 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:01:03,962 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:01:04,048 [INFO]  * Restarting with stat
+2025-09-17 14:01:04,267 [INFO] BEGIN (implicit)
+2025-09-17 14:01:04,267 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:01:04,267 [INFO] [raw sql] ()
+2025-09-17 14:01:04,267 [INFO] COMMIT
+2025-09-17 14:01:04,288 [WARNING]  * Debugger is active!
+2025-09-17 14:01:04,302 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:03:25,534 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/tests/conftest.py', reloading
+2025-09-17 14:03:25,595 [INFO]  * Restarting with stat
+2025-09-17 14:03:25,817 [INFO] BEGIN (implicit)
+2025-09-17 14:03:25,817 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:03:25,817 [INFO] [raw sql] ()
+2025-09-17 14:03:25,818 [INFO] COMMIT
+2025-09-17 14:03:25,837 [WARNING]  * Debugger is active!
+2025-09-17 14:03:25,850 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:03:56,102 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/tests/conftest.py', reloading
+2025-09-17 14:03:56,176 [INFO]  * Restarting with stat
+2025-09-17 14:03:56,399 [INFO] BEGIN (implicit)
+2025-09-17 14:03:56,399 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:03:56,399 [INFO] [raw sql] ()
+2025-09-17 14:03:56,399 [INFO] COMMIT
+2025-09-17 14:03:56,419 [WARNING]  * Debugger is active!
+2025-09-17 14:03:56,432 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:07:23,229 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/tests/conftest.py', reloading
+2025-09-17 14:07:23,313 [INFO]  * Restarting with stat
+2025-09-17 14:07:23,523 [INFO] BEGIN (implicit)
+2025-09-17 14:07:23,523 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:07:23,523 [INFO] [raw sql] ()
+2025-09-17 14:07:23,523 [INFO] COMMIT
+2025-09-17 14:07:23,544 [WARNING]  * Debugger is active!
+2025-09-17 14:07:23,559 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:07:24,573 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/tests/conftest.py', reloading
+2025-09-17 14:07:24,635 [INFO]  * Restarting with stat
+2025-09-17 14:07:24,885 [INFO] BEGIN (implicit)
+2025-09-17 14:07:24,885 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:07:24,886 [INFO] [raw sql] ()
+2025-09-17 14:07:24,886 [INFO] COMMIT
+2025-09-17 14:07:24,907 [WARNING]  * Debugger is active!
+2025-09-17 14:07:24,919 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:07:28,949 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:07:29,034 [INFO]  * Restarting with stat
+2025-09-17 14:07:29,234 [INFO] BEGIN (implicit)
+2025-09-17 14:07:29,235 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:07:29,235 [INFO] [raw sql] ()
+2025-09-17 14:07:29,235 [INFO] COMMIT
+2025-09-17 14:07:29,255 [WARNING]  * Debugger is active!
+2025-09-17 14:07:29,270 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:07:30,281 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:07:30,366 [INFO]  * Restarting with stat
+2025-09-17 14:07:30,574 [INFO] BEGIN (implicit)
+2025-09-17 14:07:30,574 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:07:30,574 [INFO] [raw sql] ()
+2025-09-17 14:07:30,574 [INFO] COMMIT
+2025-09-17 14:07:30,592 [WARNING]  * Debugger is active!
+2025-09-17 14:07:30,604 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:08:08,190 [INFO] BEGIN (implicit)
+2025-09-17 14:08:08,194 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:08:08,194 [INFO] [generated in 0.00031s] ()
+2025-09-17 14:08:08,195 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 14:08:08,198 [INFO] ROLLBACK
+2025-09-17 14:08:08,198 [INFO] 127.0.0.1 - - [17/Sep/2025 14:08:08] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 14:08:25,618 [INFO] BEGIN (implicit)
+2025-09-17 14:08:25,619 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:08:25,619 [INFO] [raw sql] ()
+2025-09-17 14:08:25,619 [INFO] COMMIT
+2025-09-17 14:08:25,648 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 14:08:25,649 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 14:08:25,649 [INFO]  * Restarting with stat
+2025-09-17 14:08:25,848 [INFO] BEGIN (implicit)
+2025-09-17 14:08:25,848 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:08:25,849 [INFO] [raw sql] ()
+2025-09-17 14:08:25,849 [INFO] COMMIT
+2025-09-17 14:08:25,870 [WARNING]  * Debugger is active!
+2025-09-17 14:08:25,884 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:08:39,911 [INFO] BEGIN (implicit)
+2025-09-17 14:08:39,914 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:08:39,914 [INFO] [generated in 0.00029s] ()
+2025-09-17 14:08:39,915 [INFO] ROLLBACK
+2025-09-17 14:08:39,916 [INFO] 127.0.0.1 - - [17/Sep/2025 14:08:39] "GET /patients HTTP/1.1" 200 -
+2025-09-17 14:08:48,678 [INFO] BEGIN (implicit)
+2025-09-17 14:08:48,679 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 14:08:48,679 [INFO] [generated in 0.00011s] (1, 1, 0)
+2025-09-17 14:08:48,680 [INFO] ROLLBACK
+2025-09-17 14:08:48,680 [INFO] 127.0.0.1 - - [17/Sep/2025 14:08:48] "GET /patients/1 HTTP/1.1" 200 -
+2025-09-17 14:08:54,449 [INFO] 127.0.0.1 - - [17/Sep/2025 14:08:54] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 14:08:57,991 [INFO] BEGIN (implicit)
+2025-09-17 14:08:57,992 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:08:57,993 [INFO] [cached since 18.08s ago] ()
+2025-09-17 14:08:57,994 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 14:08:57,995 [INFO] ROLLBACK
+2025-09-17 14:08:57,995 [INFO] 127.0.0.1 - - [17/Sep/2025 14:08:57] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 14:19:48,443 [INFO] 127.0.0.1 - - [17/Sep/2025 14:19:48] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 14:19:55,860 [INFO] BEGIN (implicit)
+2025-09-17 14:19:55,861 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:19:55,861 [INFO] [cached since 675.9s ago] ()
+2025-09-17 14:19:55,862 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 14:19:55,863 [INFO] ROLLBACK
+2025-09-17 14:19:55,863 [INFO] 127.0.0.1 - - [17/Sep/2025 14:19:55] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 14:19:59,976 [INFO] 127.0.0.1 - - [17/Sep/2025 14:19:59] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 14:20:59,798 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 14:20:59,798 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 14:20:59,798 [INFO]  * Restarting with stat
+2025-09-17 14:21:00,012 [WARNING]  * Debugger is active!
+2025-09-17 14:21:00,024 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:21:15,726 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 14:21:15,727 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 14:21:15,727 [INFO]  * Restarting with stat
+2025-09-17 14:21:15,934 [WARNING]  * Debugger is active!
+2025-09-17 14:21:15,946 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:21:43,962 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 119, in batch_average
+    patients = crud.read_all_patients()
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/crud.py", line 45, in read_all_patients
+    patients = db.session.query(Patient).all()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2239, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-09-17 14:21:43,971 [INFO] 127.0.0.1 - - [17/Sep/2025 14:21:43] "[35m[1mGET /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 14:21:47,654 [ERROR] Unexpected error in read_all_patients route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 57, in read_all_patients
+    patients = crud.read_all_patients()
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/crud.py", line 45, in read_all_patients
+    patients = db.session.query(Patient).all()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2239, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-09-17 14:21:47,656 [INFO] 127.0.0.1 - - [17/Sep/2025 14:21:47] "[35m[1mGET /patients HTTP/1.1[0m" 500 -
+2025-09-17 14:21:48,953 [ERROR] Unexpected error in read_all_patients route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 57, in read_all_patients
+    patients = crud.read_all_patients()
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/crud.py", line 45, in read_all_patients
+    patients = db.session.query(Patient).all()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2239, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-09-17 14:21:48,955 [INFO] 127.0.0.1 - - [17/Sep/2025 14:21:48] "[35m[1mGET /patients HTTP/1.1[0m" 500 -
+2025-09-17 14:21:49,611 [ERROR] Unexpected error in read_all_patients route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 57, in read_all_patients
+    patients = crud.read_all_patients()
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/crud.py", line 45, in read_all_patients
+    patients = db.session.query(Patient).all()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2239, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-09-17 14:21:49,612 [INFO] 127.0.0.1 - - [17/Sep/2025 14:21:49] "[35m[1mGET /patients HTTP/1.1[0m" 500 -
+2025-09-17 14:22:17,473 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py', reloading
+2025-09-17 14:22:17,545 [INFO]  * Restarting with stat
+2025-09-17 14:22:17,810 [WARNING]  * Debugger is active!
+2025-09-17 14:22:17,823 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:25,884 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py', reloading
+2025-09-17 14:22:25,969 [INFO]  * Restarting with stat
+2025-09-17 14:22:26,185 [WARNING]  * Debugger is active!
+2025-09-17 14:22:26,199 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:27,212 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py', reloading
+2025-09-17 14:22:27,297 [INFO]  * Restarting with stat
+2025-09-17 14:22:27,519 [WARNING]  * Debugger is active!
+2025-09-17 14:22:27,531 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:28,541 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py', reloading
+2025-09-17 14:22:28,589 [INFO]  * Restarting with stat
+2025-09-17 14:22:28,809 [WARNING]  * Debugger is active!
+2025-09-17 14:22:28,823 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:29,835 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py', reloading
+2025-09-17 14:22:29,891 [INFO]  * Restarting with stat
+2025-09-17 14:22:30,138 [WARNING]  * Debugger is active!
+2025-09-17 14:22:30,150 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:47,315 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:22:47,373 [INFO]  * Restarting with stat
+2025-09-17 14:22:47,591 [WARNING]  * Debugger is active!
+2025-09-17 14:22:47,603 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:48,617 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:22:48,702 [INFO]  * Restarting with stat
+2025-09-17 14:22:48,920 [WARNING]  * Debugger is active!
+2025-09-17 14:22:48,931 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:50,954 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:22:51,028 [INFO]  * Restarting with stat
+2025-09-17 14:22:51,239 [WARNING]  * Debugger is active!
+2025-09-17 14:22:51,251 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:22:52,264 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/batch_calc.py', reloading
+2025-09-17 14:22:52,335 [INFO]  * Restarting with stat
+2025-09-17 14:22:52,590 [WARNING]  * Debugger is active!
+2025-09-17 14:22:52,604 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:23:48,567 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 14:23:48,567 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 14:23:48,568 [INFO]  * Restarting with stat
+2025-09-17 14:23:48,786 [WARNING]  * Debugger is active!
+2025-09-17 14:23:48,798 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:24:38,172 [ERROR] Unexpected error in read_all_patients route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py", line 57, in read_all_patients
+    patients = crud.read_all_patients()
+  File "/Users/susama/cisco_py_250909/Hospital/hms/app/crud.py", line 45, in read_all_patients
+    patients = db.session.query(Patient).all()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2239, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-09-17 14:24:38,177 [INFO] 127.0.0.1 - - [17/Sep/2025 14:24:38] "[35m[1mGET /patients HTTP/1.1[0m" 500 -
+2025-09-17 14:25:34,622 [INFO] BEGIN (implicit)
+2025-09-17 14:25:34,622 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:25:34,622 [INFO] [raw sql] ()
+2025-09-17 14:25:34,622 [INFO] COMMIT
+2025-09-17 14:25:34,649 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 14:25:34,649 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 14:25:34,650 [INFO]  * Restarting with stat
+2025-09-17 14:25:34,850 [INFO] BEGIN (implicit)
+2025-09-17 14:25:34,850 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:25:34,850 [INFO] [raw sql] ()
+2025-09-17 14:25:34,851 [INFO] COMMIT
+2025-09-17 14:25:34,896 [WARNING]  * Debugger is active!
+2025-09-17 14:25:34,908 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:25:51,379 [INFO] BEGIN (implicit)
+2025-09-17 14:25:51,382 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:25:51,382 [INFO] [generated in 0.00027s] ()
+2025-09-17 14:25:51,384 [INFO] ROLLBACK
+2025-09-17 14:25:51,384 [INFO] 127.0.0.1 - - [17/Sep/2025 14:25:51] "GET /patients HTTP/1.1" 200 -
+2025-09-17 14:25:55,047 [INFO] BEGIN (implicit)
+2025-09-17 14:25:55,049 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 14:25:55,049 [INFO] [generated in 0.00024s] (1, 1, 0)
+2025-09-17 14:25:55,050 [INFO] ROLLBACK
+2025-09-17 14:25:55,050 [INFO] 127.0.0.1 - - [17/Sep/2025 14:25:55] "GET /patients/1 HTTP/1.1" 200 -
+2025-09-17 14:25:58,330 [INFO] 127.0.0.1 - - [17/Sep/2025 14:25:58] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 14:26:47,551 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Hospital/hms/app/routes.py', reloading
+2025-09-17 14:26:47,632 [INFO]  * Restarting with stat
+2025-09-17 14:26:47,848 [INFO] BEGIN (implicit)
+2025-09-17 14:26:47,848 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 14:26:47,848 [INFO] [raw sql] ()
+2025-09-17 14:26:47,848 [INFO] COMMIT
+2025-09-17 14:26:47,869 [WARNING]  * Debugger is active!
+2025-09-17 14:26:47,881 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 14:26:52,386 [INFO] BEGIN (implicit)
+2025-09-17 14:26:52,389 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:26:52,389 [INFO] [generated in 0.00027s] ()
+2025-09-17 14:26:52,391 [INFO] ROLLBACK
+2025-09-17 14:26:52,392 [INFO] 127.0.0.1 - - [17/Sep/2025 14:26:52] "GET /patients/batch-average HTTP/1.1" 200 -
+2025-09-17 14:27:00,994 [INFO] BEGIN (implicit)
+2025-09-17 14:27:00,994 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 14:27:00,994 [INFO] [cached since 8.605s ago] ()
+2025-09-17 14:27:00,995 [INFO] ROLLBACK
+2025-09-17 14:27:00,995 [INFO] 127.0.0.1 - - [17/Sep/2025 14:27:00] "GET /patients HTTP/1.1" 200 -
