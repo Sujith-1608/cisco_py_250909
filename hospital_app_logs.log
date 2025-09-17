@@ -537,3 +537,11 @@ FROM patients
 2025-09-17 09:52:13,434 [INFO] [cached since 1.165s ago] ()
 2025-09-17 09:52:13,434 [INFO] ROLLBACK
 2025-09-17 09:52:13,434 [INFO] 127.0.0.1 - - [17/Sep/2025 09:52:13] "GET /patients HTTP/1.1" 200 -
+2025-09-17 10:02:06,423 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/tests/test_batch_calc.py', reloading
+2025-09-17 10:02:06,476 [INFO]  * Restarting with stat
+2025-09-17 10:02:06,793 [INFO] BEGIN (implicit)
+2025-09-17 10:02:06,794 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:02:06,794 [INFO] [raw sql] ()
+2025-09-17 10:02:06,794 [INFO] COMMIT
+2025-09-17 10:02:06,820 [WARNING]  * Debugger is active!
+2025-09-17 10:02:06,833 [INFO]  * Debugger PIN: 739-087-724
