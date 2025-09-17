@@ -440,3 +440,100 @@ FROM patients
 2025-09-17 07:39:39,921 [INFO] [cached since 152.2s ago] ()
 2025-09-17 07:39:39,922 [INFO] ROLLBACK
 2025-09-17 07:39:39,922 [INFO] 127.0.0.1 - - [17/Sep/2025 07:39:39] "GET /patients HTTP/1.1" 200 -
+2025-09-17 07:49:42,228 [INFO] BEGIN (implicit)
+2025-09-17 07:49:42,228 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 07:49:42,228 [INFO] [raw sql] ()
+2025-09-17 07:49:42,228 [INFO] COMMIT
+2025-09-17 07:49:42,255 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.18.61:5001
+2025-09-17 07:49:42,255 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 07:49:42,256 [INFO]  * Restarting with stat
+2025-09-17 07:49:42,457 [INFO] BEGIN (implicit)
+2025-09-17 07:49:42,457 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 07:49:42,457 [INFO] [raw sql] ()
+2025-09-17 07:49:42,458 [INFO] COMMIT
+2025-09-17 07:49:42,476 [WARNING]  * Debugger is active!
+2025-09-17 07:49:42,489 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 07:49:54,797 [INFO] 127.0.0.1 - - [17/Sep/2025 07:49:54] "[33mGET /patients/ HTTP/1.1[0m" 404 -
+2025-09-17 07:50:01,783 [INFO] BEGIN (implicit)
+2025-09-17 07:50:01,786 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 07:50:01,786 [INFO] [generated in 0.00033s] ()
+2025-09-17 07:50:01,787 [INFO] ROLLBACK
+2025-09-17 07:50:01,788 [INFO] 127.0.0.1 - - [17/Sep/2025 07:50:01] "GET /patients HTTP/1.1" 200 -
+2025-09-17 09:23:25,045 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 09:23:25,104 [INFO]  * Restarting with stat
+2025-09-17 09:23:25,393 [INFO] BEGIN (implicit)
+2025-09-17 09:23:25,393 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:23:25,393 [INFO] [raw sql] ()
+2025-09-17 09:23:25,393 [INFO] COMMIT
+2025-09-17 09:23:25,418 [WARNING]  * Debugger is active!
+2025-09-17 09:23:25,431 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:25:05,299 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 09:25:05,349 [INFO]  * Restarting with stat
+2025-09-17 09:25:05,609 [INFO] BEGIN (implicit)
+2025-09-17 09:25:05,610 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:25:05,610 [INFO] [raw sql] ()
+2025-09-17 09:25:05,610 [INFO] COMMIT
+2025-09-17 09:25:05,633 [WARNING]  * Debugger is active!
+2025-09-17 09:25:05,645 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:25:06,655 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 09:25:06,713 [INFO]  * Restarting with stat
+2025-09-17 09:25:06,923 [INFO] BEGIN (implicit)
+2025-09-17 09:25:06,923 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:25:06,923 [INFO] [raw sql] ()
+2025-09-17 09:25:06,924 [INFO] COMMIT
+2025-09-17 09:25:06,944 [WARNING]  * Debugger is active!
+2025-09-17 09:25:06,956 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:25:21,069 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 09:25:21,131 [INFO]  * Restarting with stat
+2025-09-17 09:25:21,344 [INFO] BEGIN (implicit)
+2025-09-17 09:25:21,344 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:25:21,344 [INFO] [raw sql] ()
+2025-09-17 09:25:21,344 [INFO] COMMIT
+2025-09-17 09:25:21,363 [WARNING]  * Debugger is active!
+2025-09-17 09:25:21,376 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:28:17,864 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/crud.py', reloading
+2025-09-17 09:28:17,940 [INFO]  * Restarting with stat
+2025-09-17 09:28:18,158 [INFO] BEGIN (implicit)
+2025-09-17 09:28:18,158 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:28:18,158 [INFO] [raw sql] ()
+2025-09-17 09:28:18,158 [INFO] COMMIT
+2025-09-17 09:28:18,178 [WARNING]  * Debugger is active!
+2025-09-17 09:28:18,192 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:30:07,136 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/emailer.py', reloading
+2025-09-17 09:30:07,223 [INFO]  * Restarting with stat
+2025-09-17 09:30:07,512 [INFO] BEGIN (implicit)
+2025-09-17 09:30:07,512 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:30:07,512 [INFO] [raw sql] ()
+2025-09-17 09:30:07,513 [INFO] COMMIT
+2025-09-17 09:30:07,536 [WARNING]  * Debugger is active!
+2025-09-17 09:30:07,548 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:35:47,416 [INFO] BEGIN (implicit)
+2025-09-17 09:35:47,418 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 09:35:47,418 [INFO] [generated in 0.00019s] ()
+2025-09-17 09:35:47,420 [INFO] ROLLBACK
+2025-09-17 09:35:47,420 [INFO] 127.0.0.1 - - [17/Sep/2025 09:35:47] "GET /patients HTTP/1.1" 200 -
+2025-09-17 09:51:59,869 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/routes.py', reloading
+2025-09-17 09:51:59,959 [INFO]  * Restarting with stat
+2025-09-17 09:52:00,291 [INFO] BEGIN (implicit)
+2025-09-17 09:52:00,291 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 09:52:00,291 [INFO] [raw sql] ()
+2025-09-17 09:52:00,291 [INFO] COMMIT
+2025-09-17 09:52:00,322 [WARNING]  * Debugger is active!
+2025-09-17 09:52:00,339 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 09:52:12,266 [INFO] BEGIN (implicit)
+2025-09-17 09:52:12,269 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 09:52:12,269 [INFO] [generated in 0.00027s] ()
+2025-09-17 09:52:12,270 [INFO] ROLLBACK
+2025-09-17 09:52:12,270 [INFO] 127.0.0.1 - - [17/Sep/2025 09:52:12] "GET /patients HTTP/1.1" 200 -
+2025-09-17 09:52:13,433 [INFO] BEGIN (implicit)
+2025-09-17 09:52:13,434 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 09:52:13,434 [INFO] [cached since 1.165s ago] ()
+2025-09-17 09:52:13,434 [INFO] ROLLBACK
+2025-09-17 09:52:13,434 [INFO] 127.0.0.1 - - [17/Sep/2025 09:52:13] "GET /patients HTTP/1.1" 200 -

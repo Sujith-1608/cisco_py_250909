@@ -1,3 +1,7 @@
+"""
+emailer.py - Utility to send emails using Gmail SMTP.
+"""
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -11,7 +15,9 @@ TO_ADDRESS = "sinchanas257@gmail.com"
 
 
 def send_email(to_address, subject, body):
-    """Send an email using Gmail SMTP"""
+    """
+    Send a plain-text email using Gmail's SMTP server.
+    """
     try:
         msg = MIMEMultipart()
         msg["From"] = FROM_ADDRESS
@@ -24,6 +30,7 @@ def send_email(to_address, subject, body):
         server.login(FROM_ADDRESS, APP_PASSWORD)
         server.send_message(msg)
         server.quit()
+
 
         logger.info(f"Email sent successfully to {to_address} with subject: {subject}")
         return True

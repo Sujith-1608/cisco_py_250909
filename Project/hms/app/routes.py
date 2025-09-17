@@ -1,6 +1,5 @@
 """
-routes.py - Flask routes for Hospital Management System (Patients CRUD)
-with exception handling and logging
+Flask routes for Patients CRUD operations with logging and batch age calculation.
 """
 
 from flask import Flask, request, jsonify
@@ -19,6 +18,7 @@ init_db(application)
 
 @application.route("/patients", methods=['POST'])
 def create_patient():
+    """Create a patient and send email notification."""
     try:
         patient_dict = request.json
         result = crud.create_patient(patient_dict)
@@ -52,6 +52,7 @@ def create_patient():
 
 @application.route("/patients", methods=['GET'])
 def read_all_patients():
+    """Return all patients."""
     try:
         patients = crud.read_all_patients()
         return jsonify(patients)
@@ -62,6 +63,7 @@ def read_all_patients():
 
 @application.route("/patients/<int:patient_id>", methods=['GET'])
 def read_patient_by_id(patient_id):
+    """Return a patient by ID."""
     try:
         patient = crud.read_by_id(patient_id)
         if not patient:
@@ -74,6 +76,7 @@ def read_patient_by_id(patient_id):
 
 @application.route("/patients/<int:patient_id>", methods=['PUT'])
 def update_patient(patient_id):
+    """Update a patient by ID."""
     try:
         patient_dict = request.json
         updated_patient = crud.update(patient_id, patient_dict)
@@ -89,6 +92,7 @@ def update_patient(patient_id):
 
 @application.route("/patients/<int:patient_id>", methods=['DELETE'])
 def delete_patient(patient_id):
+    """Delete a patient by ID."""
     try:
         deleted = crud.delete_patient(patient_id)
         if not deleted:
@@ -103,23 +107,19 @@ def delete_patient(patient_id):
 
 @application.route("/patients/batch-average", methods=['POST'])
 def batch_average():
-    """
-    Calculate average age in batches of N (default 10) using either
-    'threads' or 'asyncio' method.
-    """
+    """Calculate average age of patients in batches using threads or asyncio."""
     try:
         data = request.get_json(silent=True) or {}
         batch_size = data.get("batch_size", 10)
         method = data.get("method", "threads")
 
-        # fetch all patients from DB
         patients = crud.read_all_patients()
 
         if method == "asyncio":
             batch_averages = asyncio.run(
                 calculate_average_age_async(patients, batch_size=batch_size)
             )
-        else:  # default to threads
+        else:
             batch_averages = calculate_average_age_threaded(
                 patients, batch_size=batch_size
             )
