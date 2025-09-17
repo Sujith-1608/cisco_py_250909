@@ -545,3 +545,19 @@ FROM patients
 2025-09-17 10:02:06,794 [INFO] COMMIT
 2025-09-17 10:02:06,820 [WARNING]  * Debugger is active!
 2025-09-17 10:02:06,833 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:10:43,129 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/tests/test_batch_calc.py', reloading
+2025-09-17 10:10:43,212 [INFO]  * Restarting with stat
+2025-09-17 10:10:43,512 [INFO] BEGIN (implicit)
+2025-09-17 10:10:43,512 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:10:43,512 [INFO] [raw sql] ()
+2025-09-17 10:10:43,512 [INFO] COMMIT
+2025-09-17 10:10:43,538 [WARNING]  * Debugger is active!
+2025-09-17 10:10:43,554 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:12:12,336 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/tests/test_batch_calc.py', reloading
+2025-09-17 10:12:12,416 [INFO]  * Restarting with stat
+2025-09-17 10:12:12,706 [INFO] BEGIN (implicit)
+2025-09-17 10:12:12,706 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:12:12,706 [INFO] [raw sql] ()
+2025-09-17 10:12:12,706 [INFO] COMMIT
+2025-09-17 10:12:12,730 [WARNING]  * Debugger is active!
+2025-09-17 10:12:12,742 [INFO]  * Debugger PIN: 739-087-724
