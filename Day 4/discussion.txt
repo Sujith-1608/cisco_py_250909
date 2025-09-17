@@ -1,0 +1,8 @@
+Base URL: https://jsonplaceholder.typicode.com
+
+API: API EndPoint
+    http
+    method.       URL
+  1. POST        /todos.     Create ToDo 
+     REQUEST
+
