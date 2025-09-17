@@ -601,3 +601,605 @@ FROM patients
 2025-09-17 10:20:06,602 [INFO] COMMIT
 2025-09-17 10:20:06,622 [WARNING]  * Debugger is active!
 2025-09-17 10:20:06,636 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:31:56,226 [INFO] 127.0.0.1 - - [17/Sep/2025 10:31:56] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 10:32:19,278 [INFO] BEGIN (implicit)
+2025-09-17 10:32:19,278 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:32:19,278 [INFO] [raw sql] ()
+2025-09-17 10:32:19,279 [INFO] COMMIT
+2025-09-17 10:32:19,313 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 10:32:19,313 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 10:32:19,314 [INFO]  * Restarting with stat
+2025-09-17 10:32:19,517 [INFO] BEGIN (implicit)
+2025-09-17 10:32:19,517 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:32:19,517 [INFO] [raw sql] ()
+2025-09-17 10:32:19,517 [INFO] COMMIT
+2025-09-17 10:32:19,537 [WARNING]  * Debugger is active!
+2025-09-17 10:32:19,551 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:32:42,621 [INFO] BEGIN (implicit)
+2025-09-17 10:32:42,624 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 10:32:42,624 [INFO] [generated in 0.00028s] ()
+2025-09-17 10:32:42,626 [INFO] ROLLBACK
+2025-09-17 10:32:42,626 [INFO] 127.0.0.1 - - [17/Sep/2025 10:32:42] "GET /patients HTTP/1.1" 200 -
+2025-09-17 10:34:23,075 [INFO] BEGIN (implicit)
+2025-09-17 10:34:23,077 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 10:34:23,078 [INFO] [generated in 0.00042s] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 10:34:23,079 [INFO] COMMIT
+2025-09-17 10:34:23,082 [INFO] BEGIN (implicit)
+2025-09-17 10:34:23,083 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+2025-09-17 10:34:23,083 [INFO] [generated in 0.00024s] (6,)
+2025-09-17 10:34:23,085 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 10:34:23,085 [INFO] [generated in 0.00026s] (6, 1, 0)
+2025-09-17 10:34:27,774 [INFO] Email sent successfully to sinchanas257@gmail.com with subject: 2025-09-17 10:34:23 Patient Sinchana Created
+2025-09-17 10:34:27,775 [INFO] ROLLBACK
+2025-09-17 10:34:27,775 [INFO] 127.0.0.1 - - [17/Sep/2025 10:34:27] "POST /patients HTTP/1.1" 200 -
+2025-09-17 10:34:48,567 [INFO] BEGIN (implicit)
+2025-09-17 10:34:48,568 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 10:34:48,568 [INFO] [cached since 25.48s ago] (5, 1, 0)
+2025-09-17 10:34:48,570 [INFO] DELETE FROM patients WHERE patients.id = ?
+2025-09-17 10:34:48,570 [INFO] [generated in 0.00016s] (5,)
+2025-09-17 10:34:48,570 [INFO] COMMIT
+2025-09-17 10:34:48,572 [INFO] 127.0.0.1 - - [17/Sep/2025 10:34:48] "DELETE /patients/5 HTTP/1.1" 200 -
+2025-09-17 10:34:56,528 [INFO] 127.0.0.1 - - [17/Sep/2025 10:34:56] "[31m[1mDELETE /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 10:35:05,264 [INFO] 127.0.0.1 - - [17/Sep/2025 10:35:05] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 10:35:08,095 [INFO] BEGIN (implicit)
+2025-09-17 10:35:08,095 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 10:35:08,095 [INFO] [cached since 145.5s ago] ()
+2025-09-17 10:35:08,097 [INFO] ROLLBACK
+2025-09-17 10:35:08,097 [INFO] 127.0.0.1 - - [17/Sep/2025 10:35:08] "POST /patients/batch-average HTTP/1.1" 200 -
+2025-09-17 11:08:24,944 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 11:08:25,026 [INFO]  * Restarting with stat
+2025-09-17 11:08:25,232 [INFO] BEGIN (implicit)
+2025-09-17 11:08:25,232 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 11:08:25,232 [INFO] [raw sql] ()
+2025-09-17 11:08:25,233 [INFO] COMMIT
+2025-09-17 11:08:25,259 [WARNING]  * Debugger is active!
+2025-09-17 11:08:25,278 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 11:08:26,291 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 11:08:26,343 [INFO]  * Restarting with stat
+2025-09-17 11:08:26,547 [INFO] BEGIN (implicit)
+2025-09-17 11:08:26,547 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 11:08:26,547 [INFO] [raw sql] ()
+2025-09-17 11:08:26,548 [INFO] COMMIT
+2025-09-17 11:08:26,567 [WARNING]  * Debugger is active!
+2025-09-17 11:08:26,578 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 11:08:27,588 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 11:08:27,667 [INFO]  * Restarting with stat
+2025-09-17 11:08:27,879 [INFO] BEGIN (implicit)
+2025-09-17 11:08:27,879 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 11:08:27,879 [INFO] [raw sql] ()
+2025-09-17 11:08:27,879 [INFO] COMMIT
+2025-09-17 11:08:27,899 [WARNING]  * Debugger is active!
+2025-09-17 11:08:27,912 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 11:09:53,633 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/batch_calc.py', reloading
+2025-09-17 11:09:53,691 [INFO]  * Restarting with stat
+2025-09-17 11:23:55,525 [INFO] BEGIN (implicit)
+2025-09-17 11:23:55,525 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 11:23:55,526 [INFO] [raw sql] ()
+2025-09-17 11:23:55,526 [INFO] COMMIT
+2025-09-17 11:23:55,564 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 11:23:55,564 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 11:23:55,565 [INFO]  * Restarting with stat
+2025-09-17 11:23:55,771 [INFO] BEGIN (implicit)
+2025-09-17 11:23:55,772 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 11:23:55,772 [INFO] [raw sql] ()
+2025-09-17 11:23:55,772 [INFO] COMMIT
+2025-09-17 11:23:55,792 [WARNING]  * Debugger is active!
+2025-09-17 11:23:55,804 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 11:27:14,636 [INFO] BEGIN (implicit)
+2025-09-17 11:27:14,638 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:27:14,638 [INFO] [generated in 0.00021s] ()
+2025-09-17 11:27:14,639 [INFO] ROLLBACK
+2025-09-17 11:27:14,640 [INFO] 127.0.0.1 - - [17/Sep/2025 11:27:14] "GET /patients HTTP/1.1" 200 -
+2025-09-17 11:37:12,600 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:12] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:16,796 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:16] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:17,576 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:17] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:18,004 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:18] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:18,212 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:18] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:18,418 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:18] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:18,616 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:18] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:18,835 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:18] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:37:18,995 [INFO] 127.0.0.1 - - [17/Sep/2025 11:37:18] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:42:41,798 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:41] "[31m[1mPUT /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:42:45,819 [INFO] BEGIN (implicit)
+2025-09-17 11:42:45,820 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:45,820 [INFO] [cached since 931.2s ago] ()
+2025-09-17 11:42:45,822 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:45,823 [INFO] ROLLBACK
+2025-09-17 11:42:45,823 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:45] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:42:50,525 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:50] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 11:42:54,485 [INFO] BEGIN (implicit)
+2025-09-17 11:42:54,485 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:54,485 [INFO] [cached since 939.9s ago] ()
+2025-09-17 11:42:54,486 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:54,486 [INFO] ROLLBACK
+2025-09-17 11:42:54,486 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:54] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:42:55,312 [INFO] BEGIN (implicit)
+2025-09-17 11:42:55,312 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:55,312 [INFO] [cached since 940.7s ago] ()
+2025-09-17 11:42:55,313 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:55,314 [INFO] ROLLBACK
+2025-09-17 11:42:55,314 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:55] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:42:55,499 [INFO] BEGIN (implicit)
+2025-09-17 11:42:55,500 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:55,500 [INFO] [cached since 940.9s ago] ()
+2025-09-17 11:42:55,500 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:55,500 [INFO] ROLLBACK
+2025-09-17 11:42:55,500 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:55] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:42:55,669 [INFO] BEGIN (implicit)
+2025-09-17 11:42:55,670 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:55,670 [INFO] [cached since 941s ago] ()
+2025-09-17 11:42:55,671 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:55,672 [INFO] ROLLBACK
+2025-09-17 11:42:55,672 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:55] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:42:55,865 [INFO] BEGIN (implicit)
+2025-09-17 11:42:55,865 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:55,865 [INFO] [cached since 941.2s ago] ()
+2025-09-17 11:42:55,866 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:55,867 [INFO] ROLLBACK
+2025-09-17 11:42:55,867 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:55] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:42:56,055 [INFO] BEGIN (implicit)
+2025-09-17 11:42:56,055 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:42:56,055 [INFO] [cached since 941.4s ago] ()
+2025-09-17 11:42:56,056 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:42:56,057 [INFO] ROLLBACK
+2025-09-17 11:42:56,058 [INFO] 127.0.0.1 - - [17/Sep/2025 11:42:56] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:48:05,780 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/routes.py', reloading
+2025-09-17 11:48:05,862 [INFO]  * Restarting with stat
+2025-09-17 11:48:06,183 [INFO] BEGIN (implicit)
+2025-09-17 11:48:06,184 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 11:48:06,184 [INFO] [raw sql] ()
+2025-09-17 11:48:06,184 [INFO] COMMIT
+2025-09-17 11:48:06,211 [WARNING]  * Debugger is active!
+2025-09-17 11:48:06,224 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 11:48:33,122 [INFO] BEGIN (implicit)
+2025-09-17 11:48:33,124 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:48:33,124 [INFO] [generated in 0.00012s] ()
+2025-09-17 11:48:33,124 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:48:33,125 [INFO] ROLLBACK
+2025-09-17 11:48:33,125 [INFO] 127.0.0.1 - - [17/Sep/2025 11:48:33] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:48:33,899 [INFO] BEGIN (implicit)
+2025-09-17 11:48:33,899 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:48:33,899 [INFO] [cached since 0.7756s ago] ()
+2025-09-17 11:48:33,900 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:48:33,901 [INFO] ROLLBACK
+2025-09-17 11:48:33,902 [INFO] 127.0.0.1 - - [17/Sep/2025 11:48:33] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:48:34,141 [INFO] BEGIN (implicit)
+2025-09-17 11:48:34,141 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:48:34,141 [INFO] [cached since 1.017s ago] ()
+2025-09-17 11:48:34,142 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:48:34,142 [INFO] ROLLBACK
+2025-09-17 11:48:34,143 [INFO] 127.0.0.1 - - [17/Sep/2025 11:48:34] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:48:34,305 [INFO] BEGIN (implicit)
+2025-09-17 11:48:34,305 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:48:34,306 [INFO] [cached since 1.182s ago] ()
+2025-09-17 11:48:34,306 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:48:34,307 [INFO] ROLLBACK
+2025-09-17 11:48:34,307 [INFO] 127.0.0.1 - - [17/Sep/2025 11:48:34] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 11:48:34,496 [INFO] BEGIN (implicit)
+2025-09-17 11:48:34,496 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 11:48:34,496 [INFO] [cached since 1.372s ago] ()
+2025-09-17 11:48:34,497 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 11:48:34,498 [INFO] ROLLBACK
+2025-09-17 11:48:34,498 [INFO] 127.0.0.1 - - [17/Sep/2025 11:48:34] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:04:05,561 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/tests/test_crud.py', reloading
+2025-09-17 12:04:05,650 [INFO]  * Restarting with stat
+2025-09-17 12:04:05,978 [INFO] BEGIN (implicit)
+2025-09-17 12:04:05,978 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 12:04:05,978 [INFO] [raw sql] ()
+2025-09-17 12:04:05,978 [INFO] COMMIT
+2025-09-17 12:04:06,003 [WARNING]  * Debugger is active!
+2025-09-17 12:04:06,019 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 12:04:07,031 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/tests/test_batch_calc.py', reloading
+2025-09-17 12:04:07,084 [INFO]  * Restarting with stat
+2025-09-17 12:04:07,302 [INFO] BEGIN (implicit)
+2025-09-17 12:04:07,303 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 12:04:07,303 [INFO] [raw sql] ()
+2025-09-17 12:04:07,303 [INFO] COMMIT
+2025-09-17 12:04:07,324 [WARNING]  * Debugger is active!
+2025-09-17 12:04:07,338 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 12:04:08,349 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/tests/conftest.py', reloading
+2025-09-17 12:04:08,430 [INFO]  * Restarting with stat
+2025-09-17 12:04:08,643 [INFO] BEGIN (implicit)
+2025-09-17 12:04:08,643 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 12:04:08,643 [INFO] [raw sql] ()
+2025-09-17 12:04:08,643 [INFO] COMMIT
+2025-09-17 12:04:08,664 [WARNING]  * Debugger is active!
+2025-09-17 12:04:08,677 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 12:04:16,405 [INFO] BEGIN (implicit)
+2025-09-17 12:04:16,408 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:04:16,408 [INFO] [generated in 0.00021s] ()
+2025-09-17 12:04:16,409 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:04:16,410 [INFO] ROLLBACK
+2025-09-17 12:04:16,410 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:16] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:04:17,127 [INFO] BEGIN (implicit)
+2025-09-17 12:04:17,127 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:04:17,127 [INFO] [cached since 0.7195s ago] ()
+2025-09-17 12:04:17,127 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:04:17,128 [INFO] ROLLBACK
+2025-09-17 12:04:17,128 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:17] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:04:17,407 [INFO] BEGIN (implicit)
+2025-09-17 12:04:17,408 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:04:17,408 [INFO] [cached since 1.001s ago] ()
+2025-09-17 12:04:17,409 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:04:17,410 [INFO] ROLLBACK
+2025-09-17 12:04:17,410 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:17] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:04:17,558 [INFO] BEGIN (implicit)
+2025-09-17 12:04:17,558 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:04:17,558 [INFO] [cached since 1.15s ago] ()
+2025-09-17 12:04:17,558 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:04:17,559 [INFO] ROLLBACK
+2025-09-17 12:04:17,559 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:17] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:04:17,757 [INFO] BEGIN (implicit)
+2025-09-17 12:04:17,757 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:04:17,758 [INFO] [cached since 1.35s ago] ()
+2025-09-17 12:04:17,758 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:04:17,759 [INFO] ROLLBACK
+2025-09-17 12:04:17,760 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:17] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:04:27,208 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:27] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 12:04:31,913 [INFO] BEGIN (implicit)
+2025-09-17 12:04:31,914 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:04:31,914 [INFO] [cached since 15.51s ago] ()
+2025-09-17 12:04:31,915 [INFO] ROLLBACK
+2025-09-17 12:04:31,915 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:31] "GET /patients HTTP/1.1" 200 -
+2025-09-17 12:04:40,303 [INFO] BEGIN (implicit)
+2025-09-17 12:04:40,305 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 12:04:40,305 [INFO] [generated in 0.00026s] (1, 1, 0)
+2025-09-17 12:04:40,306 [INFO] ROLLBACK
+2025-09-17 12:04:40,306 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:40] "GET /patients/1 HTTP/1.1" 200 -
+2025-09-17 12:04:44,344 [INFO] BEGIN (implicit)
+2025-09-17 12:04:44,344 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 12:04:44,344 [INFO] [cached since 4.039s ago] (5, 1, 0)
+2025-09-17 12:04:44,345 [INFO] ROLLBACK
+2025-09-17 12:04:44,345 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:44] "[33mGET /patients/5 HTTP/1.1[0m" 404 -
+2025-09-17 12:04:47,645 [INFO] BEGIN (implicit)
+2025-09-17 12:04:47,646 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients 
+WHERE patients.id = ?
+ LIMIT ? OFFSET ?
+2025-09-17 12:04:47,646 [INFO] [cached since 7.341s ago] (4, 1, 0)
+2025-09-17 12:04:47,646 [INFO] ROLLBACK
+2025-09-17 12:04:47,647 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:47] "GET /patients/4 HTTP/1.1" 200 -
+2025-09-17 12:04:54,606 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:54] "[33mGET /patients/batch-average/ HTTP/1.1[0m" 404 -
+2025-09-17 12:04:57,596 [INFO] 127.0.0.1 - - [17/Sep/2025 12:04:57] "[31m[1mGET /patients/batch-average HTTP/1.1[0m" 405 -
+2025-09-17 12:05:01,811 [INFO] BEGIN (implicit)
+2025-09-17 12:05:01,812 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:05:01,812 [INFO] [cached since 45.4s ago] ()
+2025-09-17 12:05:01,813 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 131, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:05:01,813 [INFO] ROLLBACK
+2025-09-17 12:05:01,814 [INFO] 127.0.0.1 - - [17/Sep/2025 12:05:01] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:22,072 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/routes.py', reloading
+2025-09-17 12:12:22,154 [INFO]  * Restarting with stat
+2025-09-17 12:12:22,432 [INFO] BEGIN (implicit)
+2025-09-17 12:12:22,432 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 12:12:22,432 [INFO] [raw sql] ()
+2025-09-17 12:12:22,432 [INFO] COMMIT
+2025-09-17 12:12:22,456 [WARNING]  * Debugger is active!
+2025-09-17 12:12:22,469 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 12:12:27,714 [INFO] BEGIN (implicit)
+2025-09-17 12:12:27,717 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:27,717 [INFO] [generated in 0.00031s] ()
+2025-09-17 12:12:27,718 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:27,720 [INFO] ROLLBACK
+2025-09-17 12:12:27,720 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:27] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:28,550 [INFO] BEGIN (implicit)
+2025-09-17 12:12:28,550 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:28,550 [INFO] [cached since 0.8334s ago] ()
+2025-09-17 12:12:28,550 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:28,551 [INFO] ROLLBACK
+2025-09-17 12:12:28,551 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:28] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:28,763 [INFO] BEGIN (implicit)
+2025-09-17 12:12:28,764 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:28,764 [INFO] [cached since 1.047s ago] ()
+2025-09-17 12:12:28,765 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:28,766 [INFO] ROLLBACK
+2025-09-17 12:12:28,766 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:28] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:28,933 [INFO] BEGIN (implicit)
+2025-09-17 12:12:28,934 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:28,934 [INFO] [cached since 1.217s ago] ()
+2025-09-17 12:12:28,935 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:28,936 [INFO] ROLLBACK
+2025-09-17 12:12:28,936 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:28] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:29,116 [INFO] BEGIN (implicit)
+2025-09-17 12:12:29,116 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:29,116 [INFO] [cached since 1.4s ago] ()
+2025-09-17 12:12:29,117 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:29,117 [INFO] ROLLBACK
+2025-09-17 12:12:29,117 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:29] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:29,300 [INFO] BEGIN (implicit)
+2025-09-17 12:12:29,301 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:29,301 [INFO] [cached since 1.584s ago] ()
+2025-09-17 12:12:29,302 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:29,303 [INFO] ROLLBACK
+2025-09-17 12:12:29,303 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:29] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:29,476 [INFO] BEGIN (implicit)
+2025-09-17 12:12:29,477 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:29,477 [INFO] [cached since 1.76s ago] ()
+2025-09-17 12:12:29,477 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:29,478 [INFO] ROLLBACK
+2025-09-17 12:12:29,479 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:29] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:29,659 [INFO] BEGIN (implicit)
+2025-09-17 12:12:29,660 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:29,660 [INFO] [cached since 1.943s ago] ()
+2025-09-17 12:12:29,661 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:29,662 [INFO] ROLLBACK
+2025-09-17 12:12:29,662 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:29] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:29,860 [INFO] BEGIN (implicit)
+2025-09-17 12:12:29,860 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:29,860 [INFO] [cached since 2.144s ago] ()
+2025-09-17 12:12:29,861 [ERROR] Unexpected error in batch_average route
+Traceback (most recent call last):
+  File "/Users/susama/cisco_py_250909/Project/hms/app/routes.py", line 135, in batch_average
+    "overall_average": sum(batch_averages)/len(batch_averages) if batch_averages else 0
+                       ~~~^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable
+2025-09-17 12:12:29,862 [INFO] ROLLBACK
+2025-09-17 12:12:29,862 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:29] "[35m[1mPOST /patients/batch-average HTTP/1.1[0m" 500 -
+2025-09-17 12:12:36,595 [INFO] BEGIN (implicit)
+2025-09-17 12:12:36,598 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 12:12:36,598 [INFO] [generated in 0.00030s] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 12:12:36,600 [INFO] ROLLBACK
+2025-09-17 12:12:36,600 [WARNING] Duplicate patient ID 6: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.id
+[SQL: INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)]
+[parameters: (6, 'Sinchana', 22, 'Head-ache')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-17 12:12:36,601 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:36] "[31m[1mPOST /patients HTTP/1.1[0m" 400 -
+2025-09-17 12:12:40,890 [INFO] BEGIN (implicit)
+2025-09-17 12:12:40,891 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 12:12:40,891 [INFO] [cached since 4.293s ago] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 12:12:40,891 [INFO] ROLLBACK
+2025-09-17 12:12:40,891 [WARNING] Duplicate patient ID 6: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.id
+[SQL: INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)]
+[parameters: (6, 'Sinchana', 22, 'Head-ache')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-17 12:12:40,892 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:40] "[31m[1mPOST /patients HTTP/1.1[0m" 400 -
+2025-09-17 12:12:41,182 [INFO] BEGIN (implicit)
+2025-09-17 12:12:41,183 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 12:12:41,183 [INFO] [cached since 4.585s ago] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 12:12:41,183 [INFO] ROLLBACK
+2025-09-17 12:12:41,183 [WARNING] Duplicate patient ID 6: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.id
+[SQL: INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)]
+[parameters: (6, 'Sinchana', 22, 'Head-ache')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-17 12:12:41,183 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:41] "[31m[1mPOST /patients HTTP/1.1[0m" 400 -
+2025-09-17 12:12:41,365 [INFO] BEGIN (implicit)
+2025-09-17 12:12:41,365 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 12:12:41,366 [INFO] [cached since 4.768s ago] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 12:12:41,366 [INFO] ROLLBACK
+2025-09-17 12:12:41,366 [WARNING] Duplicate patient ID 6: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.id
+[SQL: INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)]
+[parameters: (6, 'Sinchana', 22, 'Head-ache')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-17 12:12:41,367 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:41] "[31m[1mPOST /patients HTTP/1.1[0m" 400 -
+2025-09-17 12:12:41,560 [INFO] BEGIN (implicit)
+2025-09-17 12:12:41,561 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 12:12:41,561 [INFO] [cached since 4.963s ago] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 12:12:41,561 [INFO] ROLLBACK
+2025-09-17 12:12:41,561 [WARNING] Duplicate patient ID 6: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.id
+[SQL: INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)]
+[parameters: (6, 'Sinchana', 22, 'Head-ache')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-17 12:12:41,562 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:41] "[31m[1mPOST /patients HTTP/1.1[0m" 400 -
+2025-09-17 12:12:41,705 [INFO] BEGIN (implicit)
+2025-09-17 12:12:41,706 [INFO] INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)
+2025-09-17 12:12:41,706 [INFO] [cached since 5.108s ago] (6, 'Sinchana', 22, 'Head-ache')
+2025-09-17 12:12:41,706 [INFO] ROLLBACK
+2025-09-17 12:12:41,706 [WARNING] Duplicate patient ID 6: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.id
+[SQL: INSERT INTO patients (id, name, age, disease) VALUES (?, ?, ?, ?)]
+[parameters: (6, 'Sinchana', 22, 'Head-ache')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-17 12:12:41,707 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:41] "[31m[1mPOST /patients HTTP/1.1[0m" 400 -
+2025-09-17 12:12:44,584 [INFO] BEGIN (implicit)
+2025-09-17 12:12:44,585 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:12:44,585 [INFO] [cached since 16.87s ago] ()
+2025-09-17 12:12:44,586 [INFO] ROLLBACK
+2025-09-17 12:12:44,586 [INFO] 127.0.0.1 - - [17/Sep/2025 12:12:44] "GET /patients HTTP/1.1" 200 -
+2025-09-17 12:17:59,359 [INFO] BEGIN (implicit)
+2025-09-17 12:17:59,359 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 12:17:59,359 [INFO] [raw sql] ()
+2025-09-17 12:17:59,360 [INFO] COMMIT
+2025-09-17 12:17:59,399 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.233.0.225:5001
+2025-09-17 12:17:59,399 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-17 12:17:59,400 [INFO]  * Restarting with stat
+2025-09-17 12:17:59,617 [INFO] BEGIN (implicit)
+2025-09-17 12:17:59,617 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 12:17:59,617 [INFO] [raw sql] ()
+2025-09-17 12:17:59,617 [INFO] COMMIT
+2025-09-17 12:17:59,635 [WARNING]  * Debugger is active!
+2025-09-17 12:17:59,651 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 12:18:06,449 [INFO] BEGIN (implicit)
+2025-09-17 12:18:06,453 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:18:06,453 [INFO] [generated in 0.00034s] ()
+2025-09-17 12:18:06,454 [INFO] ROLLBACK
+2025-09-17 12:18:06,454 [INFO] 127.0.0.1 - - [17/Sep/2025 12:18:06] "GET /patients HTTP/1.1" 200 -
+2025-09-17 12:18:24,912 [INFO] BEGIN (implicit)
+2025-09-17 12:18:24,914 [INFO] SELECT patients.id AS patients_id, patients.name AS patients_name, patients.age AS patients_age, patients.disease AS patients_disease 
+FROM patients
+2025-09-17 12:18:24,914 [INFO] [cached since 18.46s ago] ()
+2025-09-17 12:18:24,915 [INFO] ROLLBACK
+2025-09-17 12:18:24,916 [INFO] 127.0.0.1 - - [17/Sep/2025 12:18:24] "POST /patients/batch-average HTTP/1.1" 200 -
