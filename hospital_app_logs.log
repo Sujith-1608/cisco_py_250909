@@ -569,3 +569,35 @@ FROM patients
 2025-09-17 10:12:25,152 [INFO] COMMIT
 2025-09-17 10:12:25,175 [WARNING]  * Debugger is active!
 2025-09-17 10:12:25,189 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:20:02,203 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/scraper.py', reloading
+2025-09-17 10:20:02,282 [INFO]  * Restarting with stat
+2025-09-17 10:20:02,581 [INFO] BEGIN (implicit)
+2025-09-17 10:20:02,581 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:20:02,582 [INFO] [raw sql] ()
+2025-09-17 10:20:02,582 [INFO] COMMIT
+2025-09-17 10:20:02,607 [WARNING]  * Debugger is active!
+2025-09-17 10:20:02,620 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:20:03,634 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/scraper.py', reloading
+2025-09-17 10:20:03,694 [INFO]  * Restarting with stat
+2025-09-17 10:20:03,910 [INFO] BEGIN (implicit)
+2025-09-17 10:20:03,910 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:20:03,910 [INFO] [raw sql] ()
+2025-09-17 10:20:03,911 [INFO] COMMIT
+2025-09-17 10:20:03,931 [WARNING]  * Debugger is active!
+2025-09-17 10:20:03,944 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:20:04,957 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/scraper.py', reloading
+2025-09-17 10:20:05,044 [INFO]  * Restarting with stat
+2025-09-17 10:20:05,259 [INFO] BEGIN (implicit)
+2025-09-17 10:20:05,259 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:20:05,259 [INFO] [raw sql] ()
+2025-09-17 10:20:05,259 [INFO] COMMIT
+2025-09-17 10:20:05,279 [WARNING]  * Debugger is active!
+2025-09-17 10:20:05,293 [INFO]  * Debugger PIN: 739-087-724
+2025-09-17 10:20:06,306 [INFO]  * Detected change in '/Users/susama/cisco_py_250909/Project/hms/app/scraper.py', reloading
+2025-09-17 10:20:06,384 [INFO]  * Restarting with stat
+2025-09-17 10:20:06,601 [INFO] BEGIN (implicit)
+2025-09-17 10:20:06,601 [INFO] PRAGMA main.table_info("patients")
+2025-09-17 10:20:06,601 [INFO] [raw sql] ()
+2025-09-17 10:20:06,602 [INFO] COMMIT
+2025-09-17 10:20:06,622 [WARNING]  * Debugger is active!
+2025-09-17 10:20:06,636 [INFO]  * Debugger PIN: 739-087-724
